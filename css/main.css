@@ -34,5 +34,8 @@ header .contenedor-de-iconos .iconos {
   justify-content: space-between;
   justify-self: end;
   margin-right: 50px ;
-  
+}
+
+header .iconos span{
+    color: white;
 }
