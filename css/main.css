@@ -39,3 +39,25 @@ header .contenedor-de-iconos .iconos {
 header .iconos span{
     color: white;
 }
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+
+}
+
+nav .logo-blog{
+    margin-left: 50px;
+}
+nav .logo-blog img {
+  margin-top: 0;
+  
+}
+nav .info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+
+}
