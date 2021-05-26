@@ -51,8 +51,9 @@ nav .logo-blog{
     margin-left: 50px;
 }
 nav .logo-blog img {
-  margin-top: 0;
-  
+  width: 220px;
+  margin-top: 10px;
+
 }
 nav .info{
     display: flex;
@@ -60,4 +61,8 @@ nav .info{
     justify-content: flex-end;
     margin-right: 50px;
 
+}
+nav .info a{
+color: black;
+border-bottom: 1px solid black;
 }
