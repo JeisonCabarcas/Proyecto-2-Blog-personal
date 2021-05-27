@@ -1,0 +1,37 @@
+@media(max-width:900px){
+    .blogs-cont1{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr ;
+    }
+    .blogs-img{
+        grid-row: 2;
+    }
+    .blogs-cont2{
+        grid-row: 3;
+        grid-column: 1;
+    }
+    .blogs-art{
+        max-width: 45%;
+    }
+    .perfil{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr ;
+    }
+    .perfil-cont{
+        display: block;
+    }
+    .proyectos-perfil{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr ;
+    }
+    .proyectos{
+        display: block;
+    }
+}
+
+@media(max-width:600px){
+    .blogs-art{
+        max-width: 95%;
+    }
+}
+
