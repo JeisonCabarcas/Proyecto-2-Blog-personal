@@ -18,6 +18,10 @@ a {
   right: 0;
   bottom: 0;
 }
+.grid-container{
+  max-width: 980px;
+  margin: auto;
+}
 header {
   width: 100%;
   height: 140px;
@@ -156,4 +160,31 @@ width: 85%;
   border: 1px solid #47cfac;
   padding:10px 15px ;
   font-size: 12px;
+}
+
+.blogs-art{
+  display: inline-block;
+  padding-left: 10px;
+  max-width: 30%;
+  margin-bottom: 50px;
+
+}
+.blogs-art p {
+  margin-bottom: 35px;
+
+}
+.blogs-art img{
+  width: 100%;
+}
+
+footer{
+  width: 100%;
+  height: 80px;
+  background-color: #22272d;
+  border-top: 35px solid #47cfac;
+  color: white;
+  text-align: center;
+}
+footer p{
+  margin-top: 30px;
 }
