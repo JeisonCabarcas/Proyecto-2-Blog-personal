@@ -4,16 +4,19 @@ body {
   font-family: 'Roboto mono', monospace;
   margin: 0;
   padding: 0;
-  position: fixed; /*Con esta configuracion se deja fija la pagina*/
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+
 }
 a {
   text-decoration: none;
   display: inline;
   color: black;
+}
+.home-body{
+  position: fixed; /*Con esta configuracion se deja fija la pagina*/
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 header {
   width: 100%;
@@ -109,4 +112,43 @@ margin-top: 80px;
   font-weight: 700;
   font-size: 18px;
 
+}
+
+.blogs-main{
+  display: grid;
+ 
+}
+.blogs-s1{
+  background-color: #e6e9ed;
+  padding: 0 50px 40px;
+}
+.blogs-cont1{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+}
+.blogs-img1{
+  grid-column: 1;
+}
+.blogs-img1 img {
+width: 85%;
+}
+
+.blogs-cont2{
+  grid-column: 2;
+}
+
+.blogs-cont2 p{
+  margin-bottom: 35px;
+}
+
+.blogs-s2{
+  padding:0 50px 40px;
+
+}
+
+.blogs-s2 h3{
+  border-bottom: 1px solid #cdd2da ;
+  padding-bottom: 20px;
+  text-align: center;
 }
